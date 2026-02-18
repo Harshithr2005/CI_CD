@@ -19,3 +19,9 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(10, 0)
+
+test_add()
+test_subtract()
+test_multiply()
+test_divide()
+test_divide_by_zero()
